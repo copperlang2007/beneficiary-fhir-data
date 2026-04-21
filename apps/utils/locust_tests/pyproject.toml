@@ -7,9 +7,9 @@ dependencies = [
   "boto3>=1.38.19",
   "flask>=3.1.1",
   "flask-cors>=6.0.0",
-  "requests>=2.32.2",
+  "requests>=2.33.0",
   "gevent>=24.11.1",
-  "urllib3>=2.4.0",
+  "urllib3>=2.6.3",
   "werkzeug>=3.0.6",
   "jinja2>=3.1.6",
   "idna>=3.7",
@@ -22,7 +22,7 @@ dev = [
   "ruff>=0.11.11",
   "types-boto3[essential,ssm]>=1.38.19",
   "types-gevent>=25.4.0.20250516",
-  "uv>=0.7.8",
+  "uv>=0.11.6",
   "pyright>=1.1.403",
 ]
 # Install this dependency group (via uv [sync|run] --group lambda-run-locust) when working on the
