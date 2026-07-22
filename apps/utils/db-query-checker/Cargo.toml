@@ -20,7 +20,7 @@ futures = "0.3"
 
 # Advanced logging that provides context on where in code path events are occurring.
 tracing = { version = "0.1", features = ["log", "release_max_level_info"] }
-tracing-subscriber = "0.2"
+tracing-subscriber = "0.3"
 tracing-futures = "0.2"
 tracing-error = "0.1"
 
